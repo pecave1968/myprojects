@@ -19,17 +19,17 @@
 #include <ESP_Mail_Client.h>
 
 // ─── WiFi Credentials ────────────────────────────────────────────────────────
-#define WIFI_SSID       "VM9999189"
-#define WIFI_PASSWORD   "nz6jjTknJxdy"
+#define WIFI_SSID       ""
+#define WIFI_PASSWORD   ""
 
 // ─── SMTP / Email Settings ────────────────────────────────────────────────────
 // Gmail example — for Gmail you MUST use an App Password (not your account password).
 // Generate one at: https://myaccount.google.com/apppasswords
 #define SMTP_HOST       "smtp.gmail.com"
 #define SMTP_PORT       465           // 465 = SSL, 587 = STARTTLS
-#define SENDER_EMAIL    "pecave@gmail.com"
+#define SENDER_EMAIL    ""
 #define SENDER_PASSWORD "your_app_password"   // App Password, NOT your Gmail password
-#define RECIPIENT_EMAIL "mr.cave@sky.com"
+#define RECIPIENT_EMAIL ""
 // ─── Input Pin ───────────────────────────────────────────────────────────────
 #define INPUT_PIN       4             // GPIO pin to monitor
 #define INPUT_MODE      INPUT_PULLDOWN  // INPUT_PULLDOWN or INPUT_PULLUP
