@@ -4,11 +4,11 @@
 #include <DallasTemperature.h>
 
 // === WiFi credentials ===
-const char* ssid = "VM9999189";
-const char* password = "nz6jjTknJxdy";
+const char* ssid = "";
+const char* password = "";
 
 // === Google Apps Script Web App URL ===
-const char* scriptUrl = "https://script.google.com/macros/s/AKfycbxWjXFKMF0iqrURvOqjzVPGW45S4AbZP4NRvlOj0z2TqG-FaEzm1q3hlnazC5KwqUG7/exec";
+const char* scriptUrl = "https://";
 
 // === DS18B20 setup ===
 #define ONE_WIRE_BUS 4  // GPIO4 (D4)
