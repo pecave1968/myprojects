@@ -2,9 +2,9 @@
 #include <HTTPClient.h>
 #include "time.h"
 
-const char* ssid = "Gs-Visitor";
+const char* ssid = "";
 const char* password = "";
-const char* googleScriptURL = "https://script.google.com/macros/s/AKfycbwKIyoj0eX11_INAjYDHA-cn2s3_M8lLNX7PaMHK-ZrasLZlFk3Oeo26kO3sTK0DNQx/exec";
+const char* googleScriptURL = "";
 
 // NTP server for RTC time
 const char* ntpServer = "pool.ntp.org";
